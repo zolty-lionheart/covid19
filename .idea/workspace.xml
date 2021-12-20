@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4423175e-0c6b-47b3-a86c-977bb68bbd31" name="Default Changelist" comment="font" />
+    <list default="true" id="4423175e-0c6b-47b3-a86c-977bb68bbd31" name="Default Changelist" comment="update detail">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +12,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1qvtwpkX5WyoYsneXq78ikizAA7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,19 +35,6 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,6 +60,9 @@
       <workItem from="1639928736683" duration="564000" />
       <workItem from="1639929361295" duration="73000" />
       <workItem from="1639929623158" duration="168000" />
+      <workItem from="1639929812041" duration="634000" />
+      <workItem from="1639970157072" duration="238000" />
+      <workItem from="1639991000217" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="add title">
       <created>1617974004471</created>
@@ -203,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639929655558</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update detail">
+      <created>1639970307806</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1639970307806</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +241,7 @@
     <MESSAGE value="update selectList,footer" />
     <MESSAGE value="first" />
     <MESSAGE value="font" />
-    <option name="LAST_COMMIT_MESSAGE" value="font" />
+    <MESSAGE value="update detail" />
+    <option name="LAST_COMMIT_MESSAGE" value="update detail" />
   </component>
 </project>
