@@ -13,8 +13,6 @@
 		</script>
 		<!--标准mui.css-->
 		<link rel="stylesheet" href="css/mui.min.css">
-		<!--自定义css-->
-		<link rel="stylesheet" href="css/zui.css">
 	</head>
 	<body>
 		<header class="mui-bar mui-bar-nav">
@@ -23,7 +21,7 @@
 		</header>
 		<div id="app">
 			<div class="mui-content" style="padding-top : 60px; margin-left:10px;margin-right: 10px;height: 100%">
-                <h5>风险区域信息来源为中国政府网卫健委疫情风险等级查询(http://bmfw.www.gov.cn/yqfxdjcx/risk.html)</h5>
+				<h5>风险区域信息来源为中国政府网卫健委疫情风险等级查询(http://bmfw.www.gov.cn/yqfxdjcx/risk.html)</h4>
 				<div class="mui-card-header mui-card-media">
 					<img src="img/red.png" />
 					<div class="mui-media-body">
@@ -53,7 +51,7 @@
 				<div class="mui-card-header mui-card-media">
 					<img src="img/yellow.png" />
 					<div class="mui-media-body">
-						中风险地区 {{mcount}} 个
+						低风险地区 {{mcount}} 个
 						<p>发步于 {{end_update_time}}</p>
 					</div>
 				</div>
@@ -83,7 +81,6 @@
 		<script src="js/ra.js"></script>
 		<script src="js/mui.min.js"></script>
 		<script src="js/vue.min.js"></script>
-		<script src="js/index.min.js"></script>
 		<script src="js/moment.min.js"></script>
 		<script type="text/javascript">  
 			var vm = new Vue({
@@ -98,10 +95,10 @@
 				},
 				mounted:function () {
 					this.hcount = gwdata["data"]["hcount"];
-					this.mcount = gwdata["data"]["mcount"];
+					this.mcount = gwdata["data"]["lcount"];
 					this.end_update_time = gwdata["data"]["end_update_time"]
 					this.highlist = gwdata["data"]["highlist"];
-					this.middlelist = gwdata["data"]["middlelist"];
+					this.middlelist = gwdata["data"]["lowlist"];
 				},
 				methods: {
 				}
